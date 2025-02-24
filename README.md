@@ -28,29 +28,24 @@ Make sure you have the following installed:
 
 ## Installation
 
-### 1. Clone the repository
+### Steps to follow
 ```bash
+ 1. Setup the database
 git clone https://github.com/MOHAMMEDAMEERUDIN/EStore.git
 cd EStore
 
-### 2. Setup the database
-```bash
+ 2. Setup the database
 CREATE DATABASE estore;
 
-### 3. Configure Application Settings
-```bash
+ 3. Configure Application Settings
 spring.datasource.username={your username}
 spring.datasource.password={your password}
 spring.mail.username={your email id}
 spring.mail.password={your password}
 
-### 4. Build and run the application
-```bash
+ 4. Build and run the application
 mvn clean install
 mvn spring-boot:run
 
-### 5. Access the Application
-```bash
+ 5. Access the Application
 Open your browser and go to http://localhost:8084 to access the e-store application.
-
-
