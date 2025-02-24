@@ -40,6 +40,8 @@ CREATE DATABASE estore;
  3. Configure Application Settings
 spring.datasource.username={your username}
 spring.datasource.password={your password}
+.
+.
 spring.mail.username={your email id}
 spring.mail.password={your password}
 
